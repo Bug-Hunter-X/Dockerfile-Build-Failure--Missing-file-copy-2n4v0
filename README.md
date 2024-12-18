@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to copy the necessary application files into the image.  The initial `Dockerfile` is missing the `COPY app.py .` instruction needed before running the application. The corrected `DockerfileSolution.txt` provides the solution.  This is a simple example, but the principle applies to more complex applications.
